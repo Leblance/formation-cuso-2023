@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- Ce fichier doit contenir la transcription diplomatique d'un ouvrage de la Renaissance, dont le facsimilé est en ligne sur les Bibliothèques virtuelles humanistes : 
+      http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1362&numtable=B721545201_C2027_5
+   Structurer dans <msDesc> les informations suivantes :
+      - Auteur : Hésiode
+      - Traducteur : Guillon, René
+      - Titre court : Opera et Dies
+      - Titre long : ΗΣΙΟΔΟΥ τοῦ Ἀσκραίου ἔργα καὶ ἡμέραι. Hesiodi Ascraei Opera et dies.
+      - Imprimeur-Libraire : Wechel, André
+      - Lieu de publication : Paris
+      - Date : 1558
+      - Format : In-quarto (4°)
+      - Collation : [1], 2-21, 21-22 (=22-23), 24-32 p. (sig. A-D4)
+      - Langue : latin, grec
+      - État physique : Mouillures
+      - Reliure : Reliure en parchemin souple ; restes de lanières (XVIe siècle) ; dos à 5 nerfs.
+      - Annotations : Notes manuscrites abondantes en marge et en interligne.
+      - Mots-clés : Histoire
+      - Autres éditions : Erga kai hemerai ... opera et dies, Parisiis : Wechelus ; 1558
+      - Lieu de conservation : La Flèche, Bibliothèque du Prytanée national militaire
+      - Cote : C2027 (5)
+   -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exercice 1 sur les métadonnées</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority xml:base="http://www.cesr.univ-tours.fr">Centre d'Etudes Supérieures de la
+               Renaissance (CESR)</authority>
+            <address>
+               <addrLine>59 rue Néricault-Destouches</addrLine>
+               <addrLine>BP 11328</addrLine>
+               <addrLine>37013 Tours Cedex France</addrLine>
+            </address>
+            <availability>
+               <p>Utilisation non commerciale libre. Copyright. Université François-Rabelais
+                  Creative Commons <date when="2012">2012</date></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier> <!-- Description du lieu de conservation -->
+                  <country>France</country>
+                  <settlement/>
+                  <institution/>
+                  <repository/>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <biblStruct> <!-- Description intellectuelle -->
+                        <monogr>
+                           <imprint>
+                              <pubPlace></pubPlace>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </msItem>
+               </msContents>
+               <physDesc></physDesc> <!-- Description physique de l'ouvrage -->
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>

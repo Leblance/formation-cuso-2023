@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Les Misérables (Édition numérique)</title>
+            <author>Victor Hugo</author>
+            <respStmt>
+               <name>Elina Leblanc</name>
+               <resp>Encodage TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Usage académique uniquement.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Victor Hugo</author>
+               <title>Les Misérables</title>
+               <pubPlace>Paris</pubPlace>
+               <publisher>La Librarie Ollendorff</publisher>
+               <date>1908</date>
+            </bibl>
+            <listPerson xml:base="https://data.bnf.fr/">
+               <person xml:id="myriel"><persName>Charles-François-Bienvenu Myriel</persName></person>
+               <person xml:id="mb"><persName>Mademoiselle Baptistine</persName></person>
+               <person xml:id="mm"><persName>Madame Magloire</persName></person>
+               <person xml:id="n1" corresp="12008245/napoleon_1/"><persName>Napoléon Ier</persName></person>
+               <person xml:id="jf" corresp="12008789/joseph_fesch/"><persName>Joseph Fesch</persName></person>
+               <person xml:id="cbg" corresp="14974444/charles_brulart_de_genlis/"><persName>Charles Brûlart de Genlis</persName></person>
+               <person xml:id="am"><persName>Antoine de Mesgrigny</persName></person>
+               <person xml:id="pv" corresp="13297596/philippe_de_vendome/"><persName>Philippe de Vendôme</persName></person>
+               <person xml:id="fbg"><persName>François de Berton de Grillon</persName></person>
+               <person xml:id="csf"><persName>César de Sabran de Forcalquier</persName></person>
+               <person xml:id="js" corresp="12069398/jean_soanen/"><persName>Jean Soanen</persName></person>
+            </listPerson>
+            <listPlace xml:base="https://viaf.org/viaf/">
+               <place xml:id="digne" corresp="168535589"><placeName>Digne-les-Bains</placeName></place>
+               <place xml:id="aix" corresp="312740180"><placeName>Aix-en-Provence</placeName></place>
+               <place xml:id="italie" corresp="152361066"><placeName>Italie</placeName></place>
+               <place xml:id="brignolles"><placeName>Brignolles</placeName></place>
+               <place xml:id="paris" corresp="158822968"><placeName>Paris</placeName></place>
+               <place xml:id="simore"><placeName>Simore</placeName></place>
+               <place xml:id="embrun" corresp="237428091"><placeName>Embrun</placeName></place>
+               <place xml:id="grasse" corresp="146600551"><placeName>Grasse</placeName></place>
+               <place xml:id="france" corresp="264091107"><placeName>France</placeName></place>
+               <place xml:id="lerins" corresp="126204458"><placeName>Abbaye Notre-Dame de Lérins</placeName></place>
+               <place xml:id="vence" corresp="261263046"><placeName>Vence</placeName></place>
+               <place xml:id="glandeve"><placeName>Glandève</placeName></place>
+               <place xml:id="senez" corresp="142144649"><placeName>Senez</placeName></place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="roman">
+            <head>LES MISÉRABLES</head>
+            
+            <div type="tome" n="1">
+               <head>TOME 1</head>
+               
+               <div type="partie" n="1">
+                  <head>
+                     <lb/>PREMIÈRE PARTIE.
+                     <lb/>FANTINE.
+                  </head>
+                  
+                  <div type="livre" n="1">
+                     
+                     <pb n="7"/>
+                     
+                     <head>
+                        <lb/>LIVRE PREMIER.
+                        <lb/>UN JUSTE.
+                     </head>
+                     
+                     <div type="chapitre" n="1">
+                        <head>
+                           <lb/>I
+                           <lb/>M. MYRIEL.
+                        </head>
+                        
+                        <p><lb/>En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne.
+                        <lb/>C'était un vieillard d'environ soixante-quinze ans ; il occupait le siège de
+                        <lb/>Digne depuis 1806.</p>
+                        
+                        <p><lb/>Quoique ce détail ne touche en aucune manière au fond même de ce
+                        <lb/>que nous avons à raconter, il n'est peut-être pas inutile, ne fût-ce que pour
+                        <lb/>être exact en tout, d'indiquer ici les bruits et les propos qui avaient couru
+                        <lb/>sur son compte au moment où il était arrivé dans le diocèse. Vrai ou faux,
+                        <lb/>ce qu'on dit des hommes tient souvent autant de place dans leur vie et sur-
+                        <lb/>tout dans leur destinée que ce qu'ils font. M. Myriel était fils d'un conseiller
+                        <lb/>au parlement d'Aix ; noblesse de robe. On contait de lui que son père, le
+                        <lb/>réservant pour hériter de sa charge, l'avait marié de fort bonne heure, à dix-
+                        <lb/>huit ou vingt ans, suivant un usage assez répandu dans les familles parle
+                        <lb/>-mentaires. Charles Myriel, nonobstant ce mariage, avait, disait-on, beau-
+                        <lb/>coup fait parler de lui. Il était bien fait de sa personne, quoique d'assez
+                        <lb/>petite taille, élégant, gracieux, spirituel ; toute la première partie de sa vie
+                        <lb/>avait été donnée au monde et aux galanteries. La révolution survint, les
+                        <lb/>événements se précipitèrent, les familles parlementaires décimées, chassées,
+                        <lb/>traquées, se dispersèrent. M. Charles Myriel, dès les premiers jours de la
+                        <lb/>révolution, émigra en Italie. Sa femme y mourut d'une maladie de poitrine
+                        <lb/>dont elle était atteinte depuis longtemps. Ils n'avaient point d'enfants.
+                        <lb/>Que se passa-t-il ensuite dans la destinée de M. Myriel ? L'écroulement
+                        <lb/>de l'ancienne société française, la chute de sa propre famille, les tragiques
+                        <lb/>spectacles de 93, plus effrayants encore peut-être pour les émigrés qui
+                        <lb/>les voyaient de loin avec le grossissement de l'épouvante, firent-ils germer
+                        <lb/>en lui des idées de renoncement et de solitude ? Fut-il, au milieu d'une
+                        <lb/>de ces distractions et de ces affections qui occupaient sa vie, subitement
+                        <lb/>atteint d'un de ces coups mystérieux et terribles qui viennent quelquefois
+                        <lb/>renverser, en le frappant au coeur, l'homme que les catastrophes publiques
+                        
+                        <pb n="8"/>
+                        
+                        <lb/><fw type="pageNum">8</fw> <fw type="header">LES MISÉRABLES. — FANTINE.</fw>
+                        
+                        <lb/>n'ébranleraient pas en le frappant dans son existence et dans sa fortune ?
+                        <lb/>Nul n'aurait pu le dire ; tout ce qu'on savait, c'est que, lorsqu'il revint
+                        <lb/>d'Italie, il était prêtre.</p>
+                        
+                        <p><lb/>En 1804, <persName>M. Myriel</persName> était curé de B. (Brignolles). Il était déjà vieux, et
+                        <lb/>vivait dans une retraite profonde.</p>
+                        
+                        <p><lb/>Vers l'époque du couronnement, une petite affaire de sa cure, on ne sait
+                        <lb/>plus trop quoi, l'amena à Paris. Entre autres personnes puissantes, il alla
+                        <lb/>solliciter pour ses paroissiens M. le cardinal Fesch. Un jour que l'empereur
+                        <lb/>était venu faire visite à son oncle, le digne curé, qui attendait dans l'antichambre,
+                        <lb/>se trouva sur le passage de sa majesté. Napoléon, se voyant re-
+                        <lb/>gardé avec une certaine curiosité par ce vieillard, se retourna, et dit brus-
+                        <lb/>quement :
+                        <lb/><said>–Quel est ce bonhomme qui me regarde ?</said>
+                        <lb/><said>–Sire, dit M. Myriel, vous regardez un bonhomme, et moi je regarde
+                        <lb/>un grand homme. Chacun de nous peut profiter.</said></p>
+                        
+                        <p><lb/>L'empereur, le soir même, demanda au cardinal le nom de ce curé, et
+                        <lb/>quelque temps après M. Myriel fut tout surpris d'apprendre qu'il était
+                        <lb/>nommé évêque de Digne.</p>
+                        
+                        <p><lb/>Qu'y avait-il de vrai, du reste, dans les récits qu'on faisait sur la première
+                        <lb/>partie de la vie de M. Myriel ? Personne ne le savait. Peu de familles
+                        <lb/>avaient connu la famille Myriel avant la révolution.</p>
+                        
+                        <p><lb/>M. Myriel devait subir le sort de tout nouveau venu dans une petite
+                        <lb/>ville où il y a beaucoup de bouches qui parlent et fort peu de têtes qui
+                        <lb/>pensent. Il devait le subir, quoiqu'il fût évêque et parce qu'il était évêque.
+                        <lb/>Mais, après tout, les propos auxquels on mêlait son nom n'étaient peut-être
+                        <lb/>que des propos ; du bruit, des mots, des paroles ; moins que des paroles,
+                        <lb/>des <emph>palabres</emph>, comme dit l'énergique langue du midi.</p>
+                        
+                        <p><lb/>Quoi qu'il en fût, après neuf ans d'épiscopat et de résidence à Digne,
+                        <lb/>tous ces racontages, sujets de conversation qui occupent dans le premier
+                        <lb/>moment les petites villes et les petites gens, étaient tombés dans un oubli
+                        <lb/>profond. Personne n'eût osé en parler, personne n'eût même osé s'en sou-
+                        <lb/>venir.</p>
+                        
+                        <p><lb/>M. Myriel était arrivé à Digne accompagné d'une vieille fille, mademoi-
+                        <lb/>selle Baptistine, qui était sa soeur et qui avait dix ans de moins que lui.</p>
+                        
+                        <p><lb/>Ils avaient pour tout domestique une servante du même âge que made-
+                        <lb/>moiselle Baptistine, et appelée madame Magloire, laquelle, après avoir été
+                        <lb/><emph>la servante de M. le Curé</emph>, prenait maintenant le double titre de femme de
+                        <lb/>chambre de mademoiselle et femme de charge de monseigneur.</p>
+                        
+                        <p><lb/>Mademoiselle Baptistine était une personne longue, pâle, mince, douce ;
+                        <lb/>elle réalisait l'idéal de ce qu'exprime le mot « respectable » ; car il semble
+                        
+                        <pb n="9"/>
+                        
+                        <lb/><fw type="header">M. MYRIEL.</fw> <fw type="pageNum">9</fw>
+                        
+                        <lb/>qu'il soit nécessaire qu'une femme soit mère pour être vénérable. Elle
+                        <lb/>n'avait jamais été jolie ; toute sa vie, qui n'avait été qu'une suite de saintes
+                        <lb/>oeuvres, avait fini par mettre sur elle une sorte de blancheur et de clarté ; et,
+                        <lb/>en vieillissant, elle avait gagné ce qu'on pourrait appeler la beauté de la
+                        <lb/>bonté. Ce qui avait été de la maigreur dans sa jeunesse était devenu, dans
+                        <lb/>sa maturité, de la transparence ; et cette diaphanéité laissait voir l'ange.
+                        <lb/>C'était une âme plus encore que ce n'était une vierge. Sa personne semblait
+                        <lb/>faite d'ombre ; à peine assez de corps pour qu'il y eût là un sexe ; un peu de
+                        <lb/>matière contenant une lueur ; de grands yeux toujours baissés ; un prétexte
+                        <lb/>pour qu'une âme reste sur la terre.</p>
+                        
+                        <p><lb/>Madame Magloire était une petite vieille, blanche, grasse, replète,
+                        <lb/>affairée, toujours haletante, à cause de son activité d'abord, ensuite à cause
+                        <lb/>d'un asthme.</p>
+                        
+                        <p><lb/>A son arrivée, on installa M. Myriel en son palais épiscopal avec les
+                        <lb/>honneurs voulus par les décrets impériaux qui classent l'évêque immédiate-
+                        <lb/>ment après le maréchal de camp. Le maire et le président lui firent la pre-
+                        <lb/>mière visite, et lui de son côté fit la première visite au général et au préfet.</p>
+                        
+                        <p><lb/>L'installation terminée, la ville attendit son évêque à l'oeuvre.</p>
+                     </div>
+                     
+                     <div type="chapitre" n="2">
+                        
+                        <pb n="10"/>
+                        
+                        <lb/><fw type="pageNum">10</fw> <fw type="header">LES MISÉRABLES. — FANTINE.</fw>
+                        
+                        <head>
+                           <lb/>II
+                           <lb/>M. MYRIEL DEVIENT MONSEIGNEUR BIENVENU.
+                        </head>
+                        
+                        <p><lb/>Le palais épiscopal de Digne était attenant à l'hôpital.</p>
+                        
+                        <p><lb/>Le palais épiscopal était un vaste et bel hôtel bâti en pierre au commencement
+                        <lb/>du siècle dernier par monseigneur Henri Puget, docteur en théo-
+                        <lb/>logie de la faculté de Paris, abbé de Simore, lequel était évêque de Digne
+                        <lb/>en 1712. Ce palais était un vrai logis seigneurial. Tout y avait grand air, les
+                        <lb/>appartementsde l'évêque, les salons, les chambres, la cour d'honneur, fort
+                        <lb/>large, avec promenoirs à arcades, selon l'ancienne mode florentine, les jar-
+                        <lb/>dins plantés de magnifiques arbres. Dans la salle à manger, longue et superbe
+                        <lb/>galerie qui était au rez-de-chausséeet s'ouvrait sur les jardins, monseigneur
+                        <lb/>Henri Puget avait donné à manger en cérémonie le 29 juillet 1714 à messei-
+                        <lb/>gneurs Charles Brûlart de Genlis, archevêque-prince d'Embrun, Antoine
+                        <lb/>de Mesgrigny, capucin, évêque de Grasse, Philippe de Vendôme, grand
+                        <lb/>prieur de France, abbé de Saint-Honoré de Lérins, François de Berton de
+                        <lb/>Grillon, évêque-baron de Vence, César de Sabran de Forcalquier, évêque-
+                        <lb/>seigneur de Glandève, et Jean Soanen, prêtre de l'oratoire, prédicateur ordinaire
+                        <lb/>du roi, évêque-seigneur de Senez. Les portraits de ces sept révérends
+                        <lb/>personnages décoraient cette salle, et cette date mémorable, <emph>29 juillet 1714</emph>,
+                        <lb/>y était gravée en lettres d'or sur une table de marbre blanc.</p>
+                        
+                        <p><lb/>L'hôpital était une maison étroite et basse à un seul étage avec un petit
+                        <lb/>jardin.</p>
+                        
+                        <p><lb/>Trois jours après son arrivée, l'évêque visita l'hôpital. La visite terminée,
+                        <lb/>il fit prier le directeur de vouloir bien venir jusque chez lui.
+                        <lb/><said>– Monsieur le directeur de l'hôpital, lui dit-il, combien en ce moment
+                        <lb/>avez-vous de malades ?</said>
+                        <lb/><said>– Vingt-six, monseigneur.</said>
+                        <lb/><said>– C'est ce que j'avais compté</said>, dit l'évêque. 
+                        <lb/><said>– Les lits</said>, reprit le directeur, <said>sont bien serrés les uns contre les autres.</said> 
+                        <lb/><said>– C'est ce que j'avais remarqué.</said> 
+                        <lb/><said>– Les salles ne sont que des chambres, et l'air s'y renouvelle difficilement.</said>
+                        <lb/><said>– C'est ce qui me semble.</said>
+                        <lb/><said>– Et puis, quand il y a un rayon de soleil, le jardin est bien petit
+                        <lb/>pour les convalescents.</said>
+                        <lb/><said>– C'est ce que je me disais.</said>
+                        
+                        <pb n="11"/>
+                        
+                        <lb/><fw type="header">M. MYRIEL DEVIENT…</fw> <fw type="pageNum">11</fw>
+                        
+                        <lb/><said>– Dans les épidémies, nous avons eu cette année le typhus, nous avons
+                        <lb/>eu une suette miliaire il y a deux ans, cent malades quelquefois ; nous ne
+                        <lb/>savons que faire.</said>
+                        <lb/><said>– C'est la pensée qui m'était venue.</said>
+                        <lb/><said>– Que voulez-vous, monseigneur ?</said> dit le directeur, <said>il faut se résigner.</said></p>
+                        
+                        <p><lb/>Cette conversation avait lieu dans la salle à manger-galerie du rez-de-
+                        <lb/>chaussée.</p>
+                        
+                        <p><lb/>L'évêque garda un moment le silence, puis il se tourna brusquement vers
+                        <lb/>le directeur de l'hôpital.
+                        <lb/><said>– Monsieur,</said> dit-il, <said>combien pensez-vous qu'il tiendrait de lits rien que
+                        <lb/>dans cette salle ?</said>
+                        <lb/><said>– La salle à manger de monseigneur !</said> s'écria le directeur stupéfait.</p>
+                        
+                        <p>L'évêque parcourait la salle du regard et semblait y faire avec les yeux
+                        <lb/>des mesures et des calculs.
+                        <lb/><said>–Il y tiendrait bien vingt lits !</said> dit-il, comme se parlant à lui-même ;
+                        <lb/>puis élevant la voix : <said>– Tenez, monsieur le directeur de l'hôpital, je vais
+                        <lb/>vous dire. Il y a évidemment une erreur. Vous êtes vingt-six personnes dans
+                        <lb/>cinq ou six petites chambres. Nous sommes trois ici, et nous avons place pour
+                        <lb/>soixante. Il y a erreur, je vous dis. Vous avez mon logis, et j'ai le vôtre.
+                        <lb/>Rendez-moi ma maison. C'est ici chez vous.</said></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
