@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Rêve</title>
+            <author>Émile Zola</author>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Transcription</resp>
+               <resp>Encodage TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability status="restricted">
+               <licence n="CC-BY-NC"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc> <!-- Rédigé d'après les informations fournies par Gallica -->
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France (BnF)</institution>
+                  <repository>Département des manuscrits</repository>
+                  <idno>NAF 10322</idno>
+                  <altIdentifier>
+                     <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1037141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Le Rêve</title>
+                     <author>Émile Zola</author>
+                     <docDate>
+                        <date>1888</date>
+                     </docDate>
+                     <note>Manuscrit et dossiers préparatoires</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="cm">
+                              <width>15,5</width>
+                              <height>20</height>
+                           </dimensions>
+                        </support>
+                        <foliation>421 f.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="fr">Français</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="https://rameau.bnf.fr/">
+              <term>Littérature -- 19e siècle</term>
+              <term>Naturalisme (mouvement littéraire)</term>
+              <term>Autographes</term>
+              <term>Manuscrits d'écrivains</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change who="#EL" when="2022-01-28">Création du fichier TEI P5, encodage du teiHeader et du corps du texte</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="roman">
+            <div type="chapitre" n="1">
+               
+               <pb n="r1"/>
+               
+               <fw place="top" type="pageNum">1</fw>
+               <head type="Main">Le Rêve</head>
+               <head type="Sub">I</head>
+               
+               <p><lb/>Pendant le rude hiver de 1860, l'Oise
+                  <lb/>gela, de grandes neiges couvrirent de la
+                  <lb/>basse Picardie ; et il en <subst><add place="above">vint</add> <del>souffla</del></subst> surtout une bour-
+                  <lb/>rasque du nord-est, qui ensevelit presque Beaumont,
+                  <lb/>le jour même de Noël. La neige qui s'était mise
+                  <lb/>à tomber dès <subst><add place="above">le matin</add><del>l'aube</del></subst> redoubla vers le soir, s'amassa
+                  <lb/>durant toute la nuit. Dans la ville haute, rue des
+                  <lb/>Orfèvres, au bout de laquelle se trouve comme en-
+                  <lb/>clavée la façade nord du transsept de la cathédrale,
+                  <lb/>elle s'engouffrait, poussée par le vent, et <subst><add place="above">allait</add><del>venait</del></subst> battre
+                  <lb/><subst><add place="above">l'antique</add><del>la vieille</del></subst> porte romane, la porte Sainte-Agnès, très
+                  <lb/>ornée de sculptures sous la nudité du pignon.
+                  <lb/>Le lendemain, à l'aube, il y en eu là près
+                  <lb/>de trois pieds.</p>
+               
+               <p><lb/>La rue dormait encore, emparessée par la
+                  <lb/>fête de la veille. <subst><add place="above">Six heures sonnèrent.</add><del><unclear reason="overinking" cert="low">Ainsi</unclear><gap reason="illegible" extent="10" unit="chars"/></del></subst> Dans
+                  <lb/>les ténébres, que bleuissait <subst><add place="above">la <del><gap reason="illegible" extent="4" unit="chars"/></del> chute</add><del>la tombée</del></subst> lente et en-
+               
+                  <pb n="v1"/>
+                  
+                  <lb/><date when="1888-01-05">5 janvier 1888</date>
+                  
+                  <pb n="r2"/>
+                  
+                  <fw type="pageNum" place="top">2</fw>
+               
+                  <lb/>têtée des flocons, seule une forme <subst><del><gap reason="illegible" extent="4" unit="chars"/></del><add place="above"><gap reason="illegible" extent="8" unit="chars"/>indécise</add></subst> vivait. Une
+                  <lb/>fillette de neuf ans, qui, refugiée <del>dès le crépuscule</del>
+                  <lb/>sous les voussures de la porte, y avait la
+                  <lb/>nuit à grelotter, en s'abritant de son mieux. Elle
+                  <lb/>était vêtue d'un mince lainage en <subst><add place="above">guenilles</add><del>loques</del></subst>, la tête
+                  <lb/>enveloppée d'un lambeau de <subst><add place="above">foulard</add><del>tricot</del></subst>, les pieds nus dans
+                  <lb/>de gros souliers d'homme. Sans doute elle n'avait é-
+                  <lb/>choué là qu'après avoir longtemps battu la ville, car elle
+                  <lb/>y était tombée les membres rompus. Pour elle, c'é-
+                  <lb/>tait <subst><del>le</del><add place="inline">la</add></subst> <subst><add place="above">bout</add><del>fin</del></subst> de la terre, plus personne ni plus rien,
+                  <lb/>l'abandon dernier, la faim qui ronge, le froid qui
+                  <lb/><subst><add place="above">glace</add><del>tue</del></subst> ; et, dans sa faiblesse, <del><gap reason="illegible" extent="4" unit="chars"/>d'enfant, raidie</del>,
+                  <lb/>étouffée par le poids lourd de son coeur, <del>puis se
+                  <lb/>glaçait</del>, elle cessait de lutter, il ne lui restait
+                  <lb/>que le recul <subst><add place="above">physique</add><del>instinctif,</del></subst>, <subst><add>l'instinct</add><del>le mouvement machinal</del></subst>
+                  <lb/>de changer de place, de s'enfoncer dans ces vielles pier-
+                  <lb/>res, lorsqu'une rafale faisait tourbillonner la
+                  <lb/>neige.</p>
+               
+               <p><lb/>Les heures, les heures <subst><del>passaient</del><add place="inline">coulaient</add></subst>. Longtemps,
+                  <lb/><del>elle était demeurée</del> entre <subst><add>le double vantail</add><del>les manteaux</del></subst> des deux baies
+                  <lb/>jumelles, <subst><add place="above">elle s'était adossée</add><del>addosée</del></subst> au trumeau, dont le pilastre <del><gap reason="illegible" extent="4" unit="chars"/></del>
+                  <lb/><del><unclear agent="overinking" cert="low">haut</unclear></del> porte une statue de sainte Agnès, la vierge
+                  <lb/>martyre de treize ans, <subst><add place="above">une <del>enfant</del> <del>fillette</del> petite fille</add><del>avec la palme <gap reason="illegible" extent="5" unit="chars"/></del></subst>
+                  <lb/><add place="above">comme</add> elle, avec la palme et un agneau à ses pieds.</p>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
